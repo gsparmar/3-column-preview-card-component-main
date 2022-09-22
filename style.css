@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+  --brightorange: hsl(31, 77%, 52%);
+  --darkcyan: hsl(184, 100%, 22%);
+  --verydarkcyan: hsl(179, 100%, 13%);
+}
+
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+
+.card {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  margin-top: 1rem 0;
+  font-size: 2rem;
+}
+
+.text {
+  color: white;
+  font-weight: 100;
+  line-height: 1.2rem;
+  font-size: 12px;
+  padding-bottom: 3rem;
+}
+
+.card img {
+  width: 3rem;
+  height: auto;
+}
+
+.c1 {
+  background-color: var(--brightorange);
+}
+
+.c1 button {
+  color: var(--brightorange);
+}
+
+.c2 {
+  background-color: var(--darkcyan);
+}
+.c2 button {
+  color: var(--darkcyan);
+}
+
+.c3 {
+  background-color: var(--verydarkcyan);
+}
+.c3 button {
+  color: var(--verydarkcyan);
+}
+
+button {
+  padding: 0.6rem;
+  border-color: white;
+  border: 1px solid white;
+  border-radius: 2rem;
+  text-align: center;
+  font-size: 12px;
+  width: 6.2rem;
+}
+
+.c1 button:hover {
+  color: white;
+  background-color: var(--brightorange);
+}
+
+.c2 button:hover {
+  color: white;
+  background-color: var(--darkcyan);
+}
+
+.c3 button:hover {
+  color: white;
+  background-color: var(--verydarkcyan);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 475px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
