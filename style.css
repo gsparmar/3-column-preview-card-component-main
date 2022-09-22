@@ -107,6 +107,7 @@ button {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -116,5 +117,20 @@ button {
   .card-container {
     display: flex;
     flex-direction: column;
+  }
+  .text {
+    font-size: 1rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .card img {
+    width: 4rem;
+    height: auto;
+  }
+  button {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
   }
 }
